@@ -4,4 +4,4 @@ from .models import Todo,CustomUser
 class ToDoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Todo
-        fields = ['todoName','todoDescription','isDone','date']
+        fields = ['author','todoName','todoDescription','isDone','date']
